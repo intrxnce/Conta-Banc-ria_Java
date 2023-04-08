@@ -9,13 +9,7 @@ import conta.model.ContaCorrente;
 public class Menu {
 
 	public static void main(String[] args) {
-		
-		Conta c1 = new Conta(7, 777, 7, "Letícia Oliveira", 99999.0f);
-		c1.visualizar();
-		c1.sacar(12000.0f);
-		c1.visualizar();
-		c1.depositar(5000.0f);
-		c1.visualizar();
+	
 		
 		ContaCorrente cc1 = new ContaCorrente(1, 111, 1, "Letícia Oliveira", 0.0f, 99000.0f);
 		cc1.visualizar();
