@@ -4,7 +4,7 @@ public class Cliente {
 
     private String nome;
     private String cpf;
-    private int idade;
+    protected int idade;
     private String endereco;
     private String telefone;
 
